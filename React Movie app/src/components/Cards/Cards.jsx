@@ -1,0 +1,24 @@
+import React from 'react';
+import './Cards.css';
+import Image from '../Image';
+
+function Cards(props){
+    return (
+        <>
+        <div className="cards">
+        <div className="card">
+          <Image imgsrc={props.imgsrc} />
+          <div className="card__info">
+            <span className="card__category">{props.title}</span>
+            <h3 className="card__title">{props.sname}</h3>
+            <a href={props.link} >
+              <button> Watch Now</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      </>
+    );
+}
+
+export default Cards;

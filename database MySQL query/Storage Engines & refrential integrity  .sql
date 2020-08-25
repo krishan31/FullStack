@@ -31,7 +31,7 @@
 1. show create table order_items; 
    describe customers;
 
--- Check Storage Engines
+- Check Storage Engines
 1. show engines;
 
 

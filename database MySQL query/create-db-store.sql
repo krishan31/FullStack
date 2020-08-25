@@ -31,7 +31,7 @@ INSERT INTO `shippers` VALUES (1,'Hettinger LLC');
 INSERT INTO `shippers` VALUES (2,'Schinner-Predovic');
 INSERT INTO `shippers` VALUES (3,'Satterfield LLC');
 INSERT INTO `shippers` VALUES (4,'Mraz, Renner and Nolan');
-INSERT INTO `shippers` VALUES (5,'Waters, Mayert and Prohaska');
+INSERT INTO `shippers` VALUES (5,'Waters, Mayert and Prohaska')
 
 
 CREATE TABLE `customers` (

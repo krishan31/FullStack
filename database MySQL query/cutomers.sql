@@ -136,7 +136,7 @@
    order_date, "Active" as status 
    from orders where order_date>="2019-01-01" UNION select order_id, order_date, "Archives" as status from orders where order_date < "2019-01-01";
 
--- find the customers who have less than 2000, 3000 and greater thn 4000 
+-- find the customers who have less than 2000, 3000 and greater thn 4000. 
 1. select customer_id,
    first_name,
    points, "Bronze" as type 
